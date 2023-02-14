@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/food"
+            android:title="@string/Food"
+            android:icon="@drawable/ic_food_24"/>
+
+        <item
+            android:id="@+id/Proilef"
+            android:title="@string/Profile"
+            android:icon="@drawable/ic_profile_24"/>
+        <item
+            android:id="@+id/About"
+            android:title="@string/About"
+            android:icon="@drawable/ic_food"/>
+    </group>
+</menu>

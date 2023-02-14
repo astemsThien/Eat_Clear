@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">EatClean</string>
+    <!-- facebook -->
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
+    <!-- toolbar -->
+    <string name="ShareApp">Chia sẻ App</string>
+    <string name="Logout">Đăng xuất</string>
+
+    <!-- menubottom -->
+    <string name="Home">Trang chủ</string>
+    <string name="Food">Thức ăn</string>
+    <string name="Profile">Hồ sơ cá nhân</string>
+    <string name="ChangeLang">Thay đổi ngôn ngữ</string>
+    <string name="Reminder">Nhắc nhở</string>
+
+    <!-- Home-->
+    <string name="Summary">Bản tóm tắt</string>
+    <string name="Calories">Calories</string>
+    <string name="Water">Nước</string>
+    <string name="Breakfast">Bữa sáng</string>
+    <string name="Lunch">Bữa Trưa</string>
+    <string name="Dinner">Bữa tối</string>
+    <string name="Snack">Ăn nhẹ</string>
+    <string name="Remind">Nhắc nhở</string>
+    <string name="CurrentWeight">Cân nặng hiện tại</string>
+    <string name="Congratulations">Xin chúc mừng, Bạn đã đạt được mục tiêu giảm cân của mình.</string>
+    <string name="Barcode">Máy quét mã vạch</string>
+    <!-- Reset -->
+    <string name="Newpassword">Nhập mật khẩu mới của bạn</string>
+    <string name="Confirm">Xác nhận mật khẩu mới</string>
+
+    <!-- signup -->
+    <string name="SIGNUP">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="Username">Tên tài khoản</string>
+    <string name="Email">Email</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="Alreadyaccount">Đã có tài khoản?</string>
+
+    <!-- login -->
+    <string name="LOGIN">ĐĂNG NHẬP</string>
+    <string name="Remember">Ghi nhớ</string>
+    <string name="Forgot">Quên mật khẩu?</string>
+    <string name="SignupforEatClean">Đăng ký tài khoản EatClean?</string>
+
+    <!-- Register -->
+    <string name="ChangePassword">Thay đổi mật khẩu</string>
+    <string name="EmailUsername">Email Hoặc Mật khẩu</string>
+
+
+    <!-- add list food -->
+    <string name="search_food">Buscar alimento</string>
+    <string name="nutritional_info_100gt">THÔNG TIN DINH DƯỠNG (MỖI 100 GR.)</string>
+    <string name="quantity_hint">Định lượng</string>
+    <string name="food_name_label">Name</string>
+    <string name="food_data_label">Food\'s information</string>
+    <string name="fats_hint">Fats (gr.)</string>
+    <string name="carbs_hint">Carbs (gr.)</string>
+    <string name="prots_hint">Proteins (gr.)</string>
+    <string name="btn_new_food">Thêm món mới</string>
+    <string name="calories_hint">Lượng calo (kcal)</string>
+    <string name="warning_form">Vui lòng điền đầy đủ</string>
+    <string name="add_food_list_name">Thêm món mới</string>
+
+    <!-- Register -->
+    <!-- Face Detection -->
+    <string name="login_analyzer">Tôi đang tìm kiếm %s! 🕵️‍♀️</string>
+    <!-- registration dialog -->
+    <string name="register_title">Chào Mừng! 🎉</string>
+    <string name="register_get_name">Tên của bạn</string>
+
+    <!-- Splash -->
+    <string name="splash_text">Made with ♥ by Eat Clean! </string>
+    <!-- Layout Menu_drawer-->
+    <string name = "thong_tin"> Thông tin </string>
+    <string name = "chia_se"> Chia sẻ </string>
+    <string name = "rate_us"> Đánh giá chúng tôi </string>
+    <string name = "doimatkhau"> Thay đổi mật khẩu </string>
+    <string name = "dangxuat"> Đăng xuất </string>
+    <string name="open_nav">Mở</string>
+    <string name="close_nav">Đóng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- Food-->
+    <string name="search">Tìm kiếm</string>
+    <string name="add">Thêm món</string>
+    <string name="material">Thành phần</string>
+    <string name="x">xxxxx</string>
+
+    <string name="Pan">Ức gà áp chảo</string>
+    <string name="chicken">ức gà</string>
+    <string name="Boiled">Bí luộc</string>
+    <string name="Uncooked">Gạo lứt chưa nấu chín</string>
+
+    <string name="Salad">Salad ức gà áp chảo</string>
+    <string name="Lettuce">Xà lách, rau mùi</string>
+    <string name="grapefruit">Bưởi</string>
+
+    <string name="breast">Bún ức vịt</string>
+    <string name="Duck">Ức vịt</string>
+    <string name="vermicelli">Bún, cà rốt, bắp cải</string>
+    <string name="mushrooms">Nấm</string>
+
+    <string name="bone">Má đùi lọc xương r</string>
+    <string name="Thigh">Đùi </string>
+    <string name="carrots">Cà rốt</string>
+    <string name="shiitake">Nấm đông cô</string>
+
+    <string name="marinated">Cá tầm ướp xả áp chảo  </string>
+    <string name="sturgeon">Cá tầm</string>
+    <string name="beans">Đậu luộc</string>
+    <string name="brown">Gạo lức</string>
+
+    <string name="Egg">Trứng cuộn</string>
+    <string name="Egg1">Trứng</string>
+    <string name="sauteed">Su su xào cà rốt</string>
+    <string name="egg">3 quả trứng</string>
+
+    <string name="Boneless">Cá chép không xương</string>
+    <string name="Carp">Cá chép</string>
+    <string name="Pork">thịt lợn vai,hạt tiêu,hành tây,gạo lứt</string>
+    <string name="Pumpkin">Bí đỏ(1 quả),bắp cải luộc</string>
+
+    <string name="Pump">Bò bía</string>
+    <string name="Beef">Bò</string>
+    <string name="flower">Bí ngô, bắp cải luộc</string>
+
+    <string name="Dried">Bún gạo lứt khô</string>
+    <string name="rice">Bún gạo lứt</string>
+    <string name="chayote">Quả su su</string>
+
+    <string name="Luffa">Ức gà + mướp</string>
+    <string name="Luffa1">Mướp</string>
+    <string name="rice1">Cà rốt, gạo lứt</string>
+    <string name="About">Thông tin</string>
+
+    <!-- Edit Profile-->
+    <string name="name">Họ và tên</string>
+    <string name="birth">Ngày sinh</string>
+    <string name="Yourweight">Cân nặng của bạn</string>
+    <string name="Yourheight">Chiều cao của bạn</string>
+    <string name="weight">Cân nặng</string>
+    <string name="height">Chiều cao</string>
+    <string name="Date">Ngày sinh</string>
+    <string name="Gender">Giới tính</string>
+    <string name="Male">Nam</string>
+    <string name="Female">Nữ</string>
+    <string name="Submit">Xác nhận</string>
+
+    <!--  Profile-->
+    <string name="Postio">Chức vụ</string>
+    <string name="Silver">Thành viên bạc</string>
+
+    <!-- Water-->
+    <string name="Please">Vui lòng uống nước!!</string>
+    <string name="Lemubit">Remind Lemubit academy</string>
+
+    <string name="GT">Eat Clean là chế độ ăn sạch, sử dụng các thực phẩm sạch, không qua chế biến sẵn, có chất phụ gia, bảo quản và giữ nguyên bản chất tự nhiên của thức ăn. Chế độ ăn Eat Clean giúp cơ thể đào thải độc tố, tăng cường khả năng hấp thụ dưỡng chất.</string>
+    <string name="Developed">Được phát triển bởi Eat Clean!</string>
+
+
+</resources>

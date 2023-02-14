@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">EatClean</string>
+    <!-- facebook -->
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
+    <!-- toolbar -->
+    <string name="ShareApp">Share App</string>
+    <string name="Logout">Logout</string>
+
+    <!-- menubottom -->
+    <string name="Home">Home</string>
+    <string name="Food">Food</string>
+    <string name="Profile">Profile</string>
+    <string name="ChangeLang">Change Languages</string>
+    <string name="Reminder">Reminder</string>
+
+    <!-- Home-->
+    <string name="Summary">Summary</string>
+    <string name="Calories">Calories</string>
+    <string name="Water">Water</string>
+    <string name="Breakfast">Breakfast</string>
+    <string name="Lunch">Lunch</string>
+    <string name="Dinner">Dinner</string>
+    <string name="Snack">Snack</string>
+    <string name="Remind">Remind</string>
+    <string name="CurrentWeight">Current Weight</string>
+    <string name="Congratulations">Congratulations, You have achieved your previous weight loss goal.</string>
+    <string name="Barcode">Barcode scanner</string>
+    <!-- Reset -->
+    <string name="Newpassword">Enter your new password</string>
+    <string name="Confirm">Confirm new password</string>
+
+    <!-- signup -->
+    <string name="SIGNUP">SIGNUP</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Alreadyaccount">Already have an account?</string>
+
+    <!-- login -->
+    <string name="LOGIN">LOGIN</string>
+    <string name="Remember">Remember</string>
+    <string name="Forgot">Forgot Password?</string>
+    <string name="SignupforEatClean">Sign up for EatClean?</string>
+
+    <!-- Register -->
+    <string name="ChangePassword">Change Password</string>
+    <string name="EmailUsername">Email or Username</string>
+
+
+    <!-- add list food -->
+    <string name="search_food">Buscar alimento</string>
+    <string name="nutritional_info_100gt">NUTRITIONAL INFORMATION (PER 100 GR.)</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="food_name_label">Name</string>
+    <string name="food_data_label">Food\'s information</string>
+    <string name="fats_hint">Fats (gr.)</string>
+    <string name="carbs_hint">Carbs (gr.)</string>
+    <string name="prots_hint">Proteins (gr.)</string>
+    <string name="btn_new_food">Add new food</string>
+    <string name="calories_hint">Calories (kcal)</string>
+    <string name="warning_form">Fill all the fields</string>
+    <string name="add_food_list_name">Add new food</string>
+
+    <!-- Register -->
+    <!-- Face Detection -->
+    <string name="login_analyzer">I am looking for %s! 🕵️‍♀️</string>
+    <!-- registration dialog -->
+    <string name="register_title">Welcome! 🎉</string>
+    <string name="register_get_name">Your name</string>
+
+    <!-- Splash -->
+    <string name="splash_text">Made with ♥ by Eat Clean! </string>
+    <!-- Layout Menu_drawer-->
+    <string name = "thong_tin"> Info </string>
+    <string name = "chia_se"> Share </string>
+    <string name = "rate_us"> Rate us </string>
+    <string name = "doimatkhau"> Change password </string>
+    <string name = "dangxuat"> Sign out </string>
+    <string name="open_nav">open</string>
+    <string name="close_nav">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- Food-->
+    <string name="search">Search</string>
+    <string name="add">Add Food</string>
+    <string name="material">Material</string>
+    <string name="x">xxxxx</string>
+
+    <string name="Pan">Pan-fried chicken breast</string>
+    <string name="chicken">chicken breast</string>
+    <string name="Boiled">Boiled squash</string>
+    <string name="Uncooked">Uncooked brown rice</string>
+
+    <string name="Salad">Pan-fried Chicken Breast Salad</string>
+    <string name="Lettuce">Lettuce, Coriander</string>
+    <string name="grapefruit">Grapefruit</string>
+
+    <string name="breast">Vermicelli duck breast</string>
+    <string name="Duck">Duck breast</string>
+    <string name="vermicelli">Vermicelli, carrots, cabbage</string>
+    <string name="mushrooms">Mushrooms</string>
+
+    <string name="bone">Thigh cheek bone filter</string>
+    <string name="Thigh">Thigh </string>
+    <string name="carrots">Carrots</string>
+    <string name="shiitake">Shiitake mushrooms</string>
+
+    <string name="marinated">Pan-fried marinated </string>
+    <string name="sturgeon">Sturgeon</string>
+    <string name="beans">Boiled beans</string>
+    <string name="brown">Brown rice</string>
+
+    <string name="Egg">Egg roll</string>
+    <string name="Egg1">Egg</string>
+    <string name="sauteed">Sauteed </string>
+    <string name="egg">3 egg</string>
+
+    <string name="Boneless">Boneless carp</string>
+    <string name="Carp">Carp</string>
+    <string name="Pork">Pork shoulder Dill,pepper,onion,brown rice</string>
+    <string name="Pumpkin">Pumpkin(1 fruit),boiled cabbage</string>
+
+    <string name="Pump">Pumpkin Beef</string>
+    <string name="Beef">Beef</string>
+    <string name="flower">Pumpkin flower,boiled cabbage</string>
+
+    <string name="Dried">Dried brown rice vermicelli</string>
+    <string name="rice">Brown rice vermicelli</string>
+    <string name="chayote">Chayote,</string>
+
+    <string name="Luffa">Chicken breast + Luffa</string>
+    <string name="Luffa1">Luffa</string>
+    <string name="rice1">Carrots,brown rice</string>
+    <string name="About">about</string>
+
+    <!-- Edit Profile-->
+    <string name="name">Name</string>
+    <string name="birth">Birthday</string>
+    <string name="Yourweight">Your weight</string>
+    <string name="Yourheight">Your height</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="Date">Date of birth</string>
+    <string name="Gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Submit">Submit</string>
+
+    <!--  Profile-->
+    <string name="Postio">position</string>
+    <string name="Silver">Silver Member</string>
+
+
+    <!-- Water-->
+    <string name="Please">Please drink water!!</string>
+    <string name="Lemubit">Remind Lemubit academy</string>
+
+    <string name="GT">Eat Clean is a clean diet, using clean, unprocessed foods, with additives, preserving and keeping the natural nature of food. Eat Clean diet helps the body to eliminate toxins, enhance the ability to absorb nutrients.</string>
+    <string name="Developed">Developed by Eat Clean!</string>
+
+
+
+
+</resources>

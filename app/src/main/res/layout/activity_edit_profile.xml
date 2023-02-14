@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundPrimaryColor"
+    tools:context=".account.EditProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/setup_user_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/add_userimage_icon" />
+
+            <LinearLayout
+                android:id="@+id/setup_username_container"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/username_edit_dialog_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/PrimaryTextColor" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/edit_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/setup_position"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="@string/name"
+                android:textAlignment="viewStart"
+                android:textColor="@color/SecondaryTextColor"
+                android:textSize="16sp"
+                tools:ignore="RtlCompat" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/setup_weight_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_style_01"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/weight_edit_dialog_inputcurrentweight"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="@string/Yourweight"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:textAlignment="center"
+                            android:textColor="@color/PrimaryTextColor"
+                            android:textColorHint="@color/HintTextColor"
+                            tools:ignore="RtlCompat" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/input_style_01"
+                            android:gravity="center"
+                            android:text="KG"
+                            android:textColor="@color/PrimaryTextColor"
+                            android:textSize="24sp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textViewe293"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:text="@string/weight"
+                        android:textAlignment="center"
+                        android:textColor="@color/SecondaryTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="NestedWeights" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/setup_height_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_style_01"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/height_edit_dialog_input_height"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="@string/Yourheight"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:textAlignment="center"
+                            android:textColor="@color/PrimaryTextColor"
+                            android:textColorHint="@color/HintTextColor"
+                            tools:ignore="RtlCompat" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/input_style_01"
+                            android:gravity="center"
+                            android:text="CM"
+                            android:textColor="@color/PrimaryTextColor"
+                            android:textSize="24sp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView29e3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/height"
+                        android:textAlignment="center"
+                        android:textColor="@color/SecondaryTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="NestedWeights" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setup_birthday_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_style_01"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/birthday_edit_dialog_inputcurrentbirthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/Date"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:textAlignment="center"
+                        android:textColor="@color/PrimaryTextColor"
+                        android:textColorHint="@color/HintTextColor"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView293"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/birth"
+                    android:textAlignment="center"
+                    android:textColor="@color/SecondaryTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_style_01"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewre293"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/Gender"
+                    android:textColor="@color/SecondaryTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <RadioButton
+                        android:id="@+id/setup_account_male_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/small_right_arrow"
+                        android:drawableTint="@color/IconColor"
+                        android:text="@string/Male"
+                        android:textSize="18sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/LineColor" />
+
+                    <RadioButton
+                        android:id="@+id/setup_account_female_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/small_right_arrow"
+                        android:drawableTint="@color/IconColor"
+                        android:text="@string/Female"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/setup_activity_level_container"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="15dp"-->
+            <!--                android:background="@drawable/input_style_01"-->
+            <!--                android:orientation="vertical">-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/textViyewe293"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:padding="10dp"-->
+            <!--                    android:text="Activity Level"-->
+            <!--                    android:textColor="@color/SecondaryTextColor"-->
+            <!--                    android:textSize="20sp"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:orientation="vertical"-->
+            <!--                    android:padding="10dp">-->
+
+
+            <!--                    <RadioButton-->
+            <!--                        android:id="@+id/setup_account_sedentary_button"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:drawableEnd="@drawable/small_right_arrow"-->
+            <!--                        android:drawableTint="@color/IconColor"-->
+            <!--                        android:paddingLeft="10dp"-->
+            <!--                        android:text="Sedentary"-->
+            <!--                        android:textSize="18sp" />-->
+
+
+            <!--                    <View-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="0.5dp"-->
+            <!--                        android:layout_marginTop="10dp"-->
+            <!--                        android:layout_marginBottom="10dp"-->
+            <!--                        android:background="@color/LineColor" />-->
+
+            <!--                    <RadioButton-->
+            <!--                        android:id="@+id/setup_account_lightly_active_button"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:drawableEnd="@drawable/small_right_arrow"-->
+            <!--                        android:drawableTint="@color/IconColor"-->
+            <!--                        android:paddingLeft="10dp"-->
+            <!--                        android:text="Lightly Active"-->
+            <!--                        android:textSize="18sp" />-->
+
+
+            <!--                    <View-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="0.5dp"-->
+            <!--                        android:layout_marginTop="10dp"-->
+            <!--                        android:layout_marginBottom="10dp"-->
+            <!--                        android:background="@color/LineColor" />-->
+
+            <!--                    <RadioButton-->
+            <!--                        android:id="@+id/setup_account_moderately_active_button"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:drawableEnd="@drawable/small_right_arrow"-->
+            <!--                        android:drawableTint="@color/IconColor"-->
+            <!--                        android:paddingLeft="10dp"-->
+            <!--                        android:text="Moderately Active"-->
+            <!--                        android:textSize="18sp" />-->
+
+            <!--                    <View-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="0.5dp"-->
+            <!--                        android:layout_marginTop="10dp"-->
+            <!--                        android:layout_marginBottom="10dp"-->
+            <!--                        android:background="@color/LineColor" />-->
+
+            <!--                    <RadioButton-->
+            <!--                        android:id="@+id/setup_account_very_active_button"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:drawableEnd="@drawable/small_right_arrow"-->
+            <!--                        android:drawableTint="@color/IconColor"-->
+            <!--                        android:paddingLeft="10dp"-->
+            <!--                        android:text="Very Active"-->
+            <!--                        android:textSize="18sp" />-->
+
+            <!--                </LinearLayout>-->
+
+
+            <!--            </LinearLayout>-->
+
+            <Button
+                android:id="@+id/setup_setup_complete_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button_style_01"
+                android:text="@string/Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/ButtonTextColor"
+                android:textSize="18sp"
+                app:backgroundTint="@null" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

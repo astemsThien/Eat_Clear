@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user"
+            android:title="@string/thong_tin"
+            android:icon="@drawable/ic_baseline_account_circle_24"/>
+        <item
+            android:id="@+id/share"
+            android:title="@string/chia_se"
+            android:icon="@drawable/ic_share"/>
+        <item
+            android:id="@+id/Rate_us"
+            android:title="@string/rate_us"
+            android:icon="@drawable/ic_rate_24"/>
+        <item
+            android:id="@+id/resetpassword"
+            android:title="@string/doimatkhau"
+            android:icon="@drawable/ic_reset_24"/>
+        <item
+            android:id="@+id/Change"
+            android:title="@string/ChangeLang"
+            android:icon="@drawable/ic_language_24"/>
+        <item
+            android:id="@+id/btn_logout"
+            android:title="@string/dangxuat"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+
+</menu>
